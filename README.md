@@ -1,3 +1,2 @@
 Yangyi Li
-Areeb-Ud-Din Ahmad
-Dean Stuart
+CS Fair Design Code
