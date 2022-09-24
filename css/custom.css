@@ -1,0 +1,682 @@
+:root{
+    --themeG:  #007155;
+    --themeY:  #FFD416;
+    --themeLG: #B2D23E;
+    --themeB:  #A7D4EE;
+    --themeBG: #66AC47;
+    --blockColor: rgba(255,255,255,0.85);
+}
+
+body {
+    background-color: var(--themeG)
+
+}
+#about li {
+    width: 80%;
+    margin: auto;
+}
+#index .img-thumbnail.dis, #about .img-thumbnail.dis {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.rotDate{
+    display: none;
+}
+
+
+#index .img-thumbnail.dis, .img-thumbnail.dis {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.rotDate{
+    display: none;
+}
+#uvm-text{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+.fancy-text a{
+    font-size: 4em;
+    text-decoration: none;
+    color: var(--themeG);
+
+}
+
+.fancy-text {
+    display: block;
+    text-align: center;
+
+}
+.fancy-text a::before{
+    content: " *:･ﾟ✧*:･ﾟ✧";
+    color: var(--themeBG);
+    font-size: .5em;
+
+
+}
+.fancy-text a::after{
+    content: "✧･ﾟ: *✧･ﾟ:* ";
+    color: var(--themeBG);
+    font-size: .5em;
+
+}
+
+.page-title{
+    text-align: center;
+
+
+}
+
+#index .row.prize section{
+    padding: 2%;
+    margin: 1%;
+    border: .2em solid var(--themeG);
+    border-radius: 2em;
+    /*! background-color: var(--themeBG); */
+    color: white;
+    background-color: var(--themeBG);
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.navbar-default{
+    text-align: center;
+    background-color: var(--themeG);
+    padding: .5%;
+}
+
+.navbar-default  li{
+    display: inline;
+    padding: 3%;
+
+}
+nav a {
+    display: inline-block;
+}
+
+nav li :hover{
+    background-image: url(https://aahmad2.w3.uvm.edu/cs142/dev-lab20/images/paw.png);
+    background-size: 1em;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    text-shadow: 0em 0em .2em var(--themeLG);
+    transition: .5s;
+
+
+}
+
+.navbar-default li a{
+    text-decoration: none;
+    padding: 1%;
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+.navbar-default li  {
+    text-align: center;
+    list-style-type: none;
+    padding: 2%;
+}
+
+
+.fancy-text a{
+    font-size: 4em;
+    text-decoration: none;
+    color: var(--themeG)
+
+}
+
+.fancy-text {
+    display: block;
+    text-align: center;
+
+}
+.fancy-text a::before{
+    content: " *:･ﾟ✧*:･ﾟ✧";
+    color: var(--themeBG);
+    font-size: .5em;
+
+}
+.fancy-text a::after{
+    content: "✧･ﾟ: *✧･ﾟ:* ";
+    color: var(--themeBG);
+    font-size: .5em;
+
+}
+
+header .page-title{
+    color: var(--themeG);
+    font-size: 1.4em;
+    border-top: solid;
+    border-bottom: solid;
+    width: 17em;
+    margin: auto;
+
+}
+.row.prize{
+    width: 80%;
+    margin: auto;
+}
+
+
+.navbar-default{
+    text-align: center;
+    background-color: var(--themeG);
+    padding: .5%;
+}
+.navbar{
+    background-image: url(https://www.uvm.edu/sites/default/files/UVMLogoSolidBlackstacked.png);
+    background-repeat: no-repeat;
+    background-size: 14%;
+    background-position-y: 60%;
+    background-position-x: 2.6%
+}
+
+.navbar-default  li{
+    padding: 3%;
+
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+.navbar-default li a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border: .01em white;
+    border-style: none solid none solid;
+}
+
+.navbar-default li  {
+    text-align: center;
+    padding: 2%;
+}
+
+footer{
+    background-color: var(--themeG);
+    text-align: center;
+    color: white
+}
+footer p:first-of-type{
+    padding-top: 3.3%;
+}
+footer a{
+    color: var(--themeY);
+    padding: .5%;
+}
+#page-wrap{
+    background-color: white;
+    margin: auto;
+}
+#index .row.prize h3{
+    background-color: var(--themeG);
+    padding: .3em;
+    text-align: center;
+    border-radius: 20em;
+    border: .1em solid;
+    /*! grid-area: "head"; */
+}
+
+
+#index .row.intro-row{
+    width: 80%;
+    margin: auto;
+}
+
+#index hr, #about hr{
+    display: none;
+}
+#index .col-md-4 p{
+    font-size: 1em;
+    text-align: center;
+}
+#index .col-md-4.stats.dis p{
+    background-color: red;
+    color: white;
+    padding: .3em;
+    width: 50%;
+    margin: auto;
+    transform: skew(-15deg);
+}
+
+#index .disclaimer{
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    color: var(--themeG);
+}
+#index h2, #about h2, #judges .row.judging-criteria h2{
+    text-align: center;
+    color: white;
+    background-color: var(--themeG);
+    font-size: 2em;
+    padding: 1% .5% 0.5%;
+}
+#index #page-wrap > ol{
+    width: 80%;
+    color: white;
+    margin: auto;
+    background-color: var(--themeBG);
+    padding:1em 10%;
+    margin-top: -2em;
+    margin-bottom: -1em;
+}
+#index #page-wrap > ol a{
+    color: var(--themeY)
+}
+#about .col-md-12 p{
+    width: 80%;
+    margin: auto;
+}
+#judges p{
+    width: 80%;
+    margin: auto;
+}
+#judges .judges.list-unstyled  li{
+    list-style: none;
+
+    padding: 2em;
+    border-style: dotted none none none;
+    border-color:  var(--themeLG);
+
+
+}
+#judges .judges.list-unstyled  li h2{
+    color: var(--themeG);
+    font-size: 2em;
+
+}
+#judges li h4{
+    color: var(--themeBG);
+}
+#judges .row.judging-criteria {
+    padding-bottom: 1em;
+
+}
+#judges .row.judging-criteria h3{
+    padding: 1em;
+    color: var(--themeG)
+}
+#index .project{
+    font-size: 1.2em;
+}
+#index .studentPresentor{
+    color: var(--themeY);
+}
+#about  #main .page-title{
+    background-color: unset;
+    color: unset;
+    padding: unset;
+}
+#about .col-md-12:nth-of-type(2){
+    height: 20em;
+}
+#about .col-md-12:nth-of-type(2) p {
+    position: relative;
+    top: 25%;
+    margin-left: 50%;
+    width: 40%;
+}
+#about .col-md-12 iframe{
+    position: relative;
+    left: 2%;
+    top: -2%;
+
+}
+#about .img-thumbnail.img-about.dis{
+    display: inline-block;
+    width: 20%;
+}
+#about  .col-md-12{
+    padding-bottom: .5em;
+    /*! width: ; */
+}
+@media all and (max-width: 900px){
+    .navbar{
+        background-image: unset;
+    }
+}
+@media all and (max-width: 600px){
+
+    .navbar-default li{
+        display: block;
+        padding: 2em;
+    
+    }
+    nav a {
+        display: unset;
+    }
+    .navbar-default li a{
+        border-style: solid none solid none;
+       
+    }
+    .fancy-text a {
+        font-size: 150%;
+    }
+    
+    header .page-title{
+    color: var(--themeG);
+    font-size: 1.2em;
+    border-top: solid;
+    border-bottom: solid;
+    width: 80%;
+    margin: auto;
+
+}
+    #uvm-text{
+       font-size: 70%;
+    }
+
+}
+@media all and (max-width: 600px){
+
+    .navbar-default li{
+        display: block;
+        padding: 1em;
+    
+    }
+    nav a {
+        display: unset;
+    }
+    .navbar-default li a{
+        border-style: solid none solid none;
+        margin-left:-10% ;
+        border-top: 
+       
+    }
+    .fancy-text a {
+        font-size: 150%;
+    }
+    
+    header .page-title{
+    color: var(--themeG);
+    font-size: 1.2em;
+    border-top: solid;
+    border-bottom: solid;
+    width: 80%;
+    margin: auto;
+
+}
+    #uvm-text{
+       font-size: 100%;
+    }
+    
+    #about .img-thumbnail.img-about.dis{
+        width: 80%;
+    }
+    
+    #about .col-md-12:nth-of-type(2) p{
+        font-size: .7em    
+    }
+    body{
+        font-size: .7em;
+    }
+    #about .col-md-12:nth-of-type(2) p{
+        margin-top: -6%;
+        top: 80%;
+        text-align: center;
+        right:20%;
+            
+    }
+    #about .col-md-12 iframe{
+        left: 10%;
+        width: 80%
+    }
+    #about li{
+        width: 95%
+    }
+}   
+
+/************************************** sponsors **************************************/
+#sponsors header .rotDate, .fancy-text,  {
+    display: inline-block;
+}
+
+#sponsors .btn{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+}
+
+#sponsors h3{
+  margin: 30px;
+  border-bottom: 4px solid black;
+} 
+
+#sponsors .list-unstyled{
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#sponsors li{
+    margin-bottom:15px;
+}
+
+#sponsors .col-md-8, .col-md-4, .col-md-10{
+    padding: 1%;
+}
+
+#sponsors a{
+    color: green;
+}
+
+#sponsors .row{
+    margin-top: 3%;
+}
+
+#sponsors .img-thumbnail{
+      max-width: 30%;
+      border-radius: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 6px solid var(--themeLG);
+}
+
+#sponsors .img-thumbnail.dis{
+      max-width: 40%;
+      border-radius: 5%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 6px solid var(--themeLG);
+}
+
+#sponsors .col-md-12{
+    padding-top: 1% 
+}
+
+#sponsors h3{
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-size: 2em;
+    padding-top: 1%;}
+/************************************** sponsorsForm **************************************/
+#sponsorsForm legend{
+    font-size: 18pt;
+    color: darkgreen;
+}
+
+#sponsorsForm input[type=submit]{
+    background: #14a440;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px teal;
+    color: white;
+    font-size:12pt;
+    width: 100%;
+}
+
+#sponsorsForm form{
+    font: Arial;
+    max-width: 75%;
+    margin: auto;
+}
+
+#sponsorsForm fieldset{
+    border: 6px solid green;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+#sponsorsForm textarea{
+    width: 75%;
+}
+
+#sponsorsForm label {
+    color: green;
+    display: block;
+    font-weight: bold;
+    padding-right: 1em;
+    padding: 1%;
+}
+
+#sponsorsForm input, textarea, select{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px green; 
+    border-radius: 3px;
+    padding: 1em;
+}
+
+#sponsorsForm{
+    background-color: white; 
+}
+
+#sponsorsForm .row{
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3%;
+}
+
+#sponsorsForm h3{
+    text-align: center;
+    color: white;
+    background-color: var(--themeG);
+    font-size: 2em;
+    padding: 0.5%;
+}
+
+#errors{
+    color: #DC143C;
+    padding: 0.5%;
+}
+/***************************************** projects *****************************************/
+#projects .col-md-10 table{
+    border: solid;
+    height: 38em;
+    padding: 1%;
+    width: 42%;
+    float: left;
+    margin: 4%;
+    background-color: lightgreen;
+    border-radius: 25px;
+}
+  
+#projects .col-md-4 td{
+    border: solid;
+    border-radius: 8px;
+    border-color: green;
+}
+
+#projects .img-thumbnail.dis {
+    width: 25%;
+    display: inline;    
+    padding: 5%;
+    float: right;
+    padding-right: 8%;
+}
+
+#projects .col-md-12{
+    position: fixed;
+}
+
+#projects .col-md-8, #projects .col-md-4,#projects .col-md-10{
+    text-align: center;
+    padding: 1%;
+}
+
+#projects #categoryLegend{
+    padding-left: 8%;
+}
+
+#projects .row{
+    margin-top: 3%;
+}
+
+/***************************************** schedule *****************************************/
+#schedule img{
+    max-width: 100%;
+}
+
+#schedule table{
+    max-width: 100%;
+    border: solid;
+    border-radius: 10px;
+    border-color: green;
+    margin-left:auto; 
+    margin-right:auto;
+}
+#schedule.intro-row{
+    text-align: center;
+}
+
+#schedule .row{
+    margin-top: 3%;
+    text-align: center;
+}
+
+#schedule #categoryLegend{
+    text-align: left;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#schedule li{
+    list-style-type: circle;
+    color: green;
+}
+
+#schedule h2{
+    text-align: center;
+    color: white;
+    background-color: var(--themeG);
+    font-size: 2em;
+    padding: 0.5%;
+}
+/***************************************** photo *****************************************/
+#photos h2{
+    text-align: center;
+    color: white;
+    background-color: var(--themeG);
+    font-size: 2em;
+    padding: 1%;
+}
+
+#photos.intro-row{
+   text-align: center;
+}
+
+#photos #photoGallery{
+   text-align: center;
+   font-size: 25px;
+}
